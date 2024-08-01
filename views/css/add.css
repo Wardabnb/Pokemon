@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background: #b4cdf666;
+  margin: 42px 40px;
+  padding: 42px 40px;
+  gap: 0px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-part {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.first-part button {
+  width: 132px;
+  height: 40px;
+  top: 80px;
+  left: 209px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  background: #5a94c580;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #5a94c5;
+}
+.second-part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.second-part a {
+  text-decoration: none;
+  color: #5a94c5;
+}
+.contain {
+  text-align: center;
+  color: yellow;
+  position: relative;
+}
+
+.contain h1 {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: yellow;
+  text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black,
+    -1px 1px 0px black;
+}
+
+.underline {
+  width: 250px;
+  height: 4px;
+  position: relative;
+
+  left: 710px;
+  gap: 0px;
+  border: 0.5px 0px 0px 0px;
+  opacity: 0px;
+
+  background-color: yellow;
+  margin-top: 10px;
+  border: 0.5px solid #2b2d42;
+}
+.form {
+  margin: 42px 40px;
+  padding: 42px 40px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form .text {
+  width: 399px;
+  height: 118px;
+  top: 488px;
+  left: 121px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+.text label {
+  font-family: Lora;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #5a94c5;
+}
+.text input {
+  width: 399px;
+  height: 50px;
+  top: 540px;
+  left: 121px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+  border: 3px solid #5a94c5;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: large;
+}
+.form .numbers {
+  width: 399px;
+  height: 118px;
+  top: 488px;
+  left: 121px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+.numbers label {
+  font-family: Lora;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #5a94c5;
+}
+.numbers input {
+  width: 399px;
+  height: 50px;
+  top: 540px;
+  left: 121px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+  border: 3px solid #5a94c5;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #5a94c5;
+}
+.add {
+  position: relative;
+  top: 280px;
+  left: 700px;
+}
+.add button {
+  width: 305px;
+  height: 73px;
+
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  background: #ffda7a;
+  border: none;
+  font-family: Lora;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #5a94c5;
+  text-align: center;
+}

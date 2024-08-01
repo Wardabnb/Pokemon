@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background: #b4cdf666;
+  margin: 42px 40px;
+  padding: 42px 40px;
+  gap: 0px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-part {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.first-part button {
+  width: 132px;
+  height: 40px;
+  top: 80px;
+  left: 209px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  background: #5a94c580;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #5a94c5;
+}
+.second-part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.second-part a {
+  text-decoration: none;
+  color: #5a94c5;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.buttons button {
+  width: 140px;
+  height: 53px;
+  top: 718px;
+  left: 403px;
+  gap: 0px;
+  border-radius: 17px;
+  opacity: 0px;
+  border: none;
+}
+.fire {
+  background: #e54242;
+}
+.ground {
+  background: #9d6f45;
+}
+.water {
+  background: #27e7f3;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.item {
+  width: 434px;
+  height: 410.41px;
+  top: 216px;
+  left: 414px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.item img {
+  width: 414px;
+  height: 390px;
+  padding: 20px;
+  background-color: #b4cdf680;
+}
+.item svg {
+  position: relative;
+  width: 24px;
+  height: 28px;
+  bottom: 200px;
+  left: 200px;
+  gap: 0px;
+  opacity: 0px;
+  color: red;
+}
