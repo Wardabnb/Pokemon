@@ -13,10 +13,16 @@ function addPokemon() {
       attack,
       deffense,
       speed,
+      sessionId:localStorage.getItem("userId"),
     }),
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
   });
+}
+window.onload=()=>{
+  if(localStorage.getItem("userId")!="adgk126kjhgyrd986g"){
+    window.location="/public/home"
+  }
 }
