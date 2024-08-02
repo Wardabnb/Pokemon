@@ -30,7 +30,7 @@ window.onload = () => {
 };
 
 function delet() {
-  fetch(`https://pokemon-khys.onrender.compokimon/${id}`, {
+  fetch(`https://pokemon-khys.onrender.com/pokimon/${id}`, {
     body:JSON.stringify({sessionId:localStorage.getItem("userId")}),
     method: "DELETE",
     headers: {
