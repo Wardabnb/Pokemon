@@ -12,6 +12,8 @@ const corsOptions = {
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // Permet les requêtes preflight pour toutes les routes
+
 app.use(bodyParser.json());
 app.use(limiter);
 app.use("/public", express.static("./views"));
