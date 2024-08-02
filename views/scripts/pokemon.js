@@ -5,7 +5,7 @@ console.log(array);
 const id = array[2];
 //fetch a pokemon with id
 window.onload = () => {
-  fetch(`http://localhost:4000/pokimon/${id}`).then(async (res) => {
+  fetch(`https://pokemon-khys.onrender.compokimon/${id}`).then(async (res) => {
     const response = await res.json();
     console.log(response);
     const content = document.querySelector(".container");
@@ -30,7 +30,7 @@ window.onload = () => {
 };
 
 function delet() {
-  fetch(`http://localhost:4000/pokimon/${id}`, {
+  fetch(`https://pokemon-khys.onrender.compokimon/${id}`, {
     body:JSON.stringify({sessionId:localStorage.getItem("userId")}),
     method: "DELETE",
     headers: {
