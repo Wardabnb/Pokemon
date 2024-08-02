@@ -7,7 +7,11 @@ import cors from "cors";
 import { limiter } from "./middleware/rate-limiter.js";
 import router from "./routers/views.js";
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: 'https://pokemon-khys.onrender.com', // Remplacez par l'URL de votre site
+  optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(limiter);
 app.use("/public", express.static("./views"));
