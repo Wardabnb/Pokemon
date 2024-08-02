@@ -5,7 +5,7 @@ console.log(array);
 const id = array[2];
 //fetch a pokemon with id
 window.onload = () => {
-  fetch(`https://pokemon-khys.onrender.compokimon/${id}`).then(async (res) => {
+  fetch(`https://pokemon-khys.onrender.com/pokimon/${id}`).then(async (res) => {
     const response = await res.json();
     console.log(response);
     const content = document.querySelector(".container");
