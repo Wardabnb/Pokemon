@@ -3,7 +3,7 @@ const container = document.querySelector(".content");
 //fetch pokimons
 
 window.onload = () => {
-  fetch("http://localhost:4000/pokimon/").then(async (res) => {
+  fetch("https://pokemon-khys.onrender.com/pokimon/").then(async (res) => {
     const response = await res.json();
     console.log(response);
     response.forEach((pokemon) => {

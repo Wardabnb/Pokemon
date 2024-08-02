@@ -5,7 +5,7 @@ function addPokemon() {
   const attack = document.querySelector("#attack").value;
   const deffense = document.querySelector("#deffense").value;
   const speed = document.querySelector("#speed").value;
-  fetch("http://localhost:4000/pokimon/", {
+  fetch("https://pokemon-khys.onrender.com/pokimon/", {
     body: JSON.stringify({
       name,
       category,
